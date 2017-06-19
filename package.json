@@ -1,0 +1,24 @@
+{
+  "name": "focal-length",
+  "version": "0.1.0",
+  "description": "Focal length calculator for various crop factors.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deliastephens/focal-length.git"
+  },
+  "keywords": [
+    "focal",
+    "length",
+    "camera"
+  ],
+  "author": "Delia Stephens",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/deliastephens/focal-length/issues"
+  },
+  "homepage": "https://github.com/deliastephens/focal-length#readme"
+}
