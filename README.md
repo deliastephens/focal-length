@@ -37,11 +37,13 @@ Give an example
 
 To calculate the effective focal length for a crop factor and focal length:
 
+```
   const focalLength = require('focal-length');
   const cropFactor = YOUR_CROP_FACTOR;
   const focalLength = YOUR_FOCAL_LENGTH;
 
   focalLength.calcNewFocalLength(cropFactor, focalLength);
+```
 
 ## Contributing
 
