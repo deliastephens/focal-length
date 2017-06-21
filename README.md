@@ -8,10 +8,17 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-There are no prerequisites for this project.
+This project uses [intern](https://github.com/theintern/intern)
+for testing:
+
+```
+npm i --save intern
+```
 
 ### Installing
-  npm i --save focal-length
+```
+npm i --save focal-length
+```
 
 ## Running the tests
 
