@@ -8,11 +8,11 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-This project uses [intern](https://github.com/theintern/intern)
+This project uses [jest](https://facebook.github.io/jest/)
 for testing:
 
 ```
-npm i --save intern
+npm i --save jest
 ```
 
 ### Installing
@@ -22,22 +22,17 @@ npm i --save focal-length
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
+This system uses [Jest](https://facebook.github.io/jest/) for testing.
 
-### Break down into end to end tests
-
-Explain what these tests test and why
+### Installing Jest
+To install Jest, run
+```
+npm install jest
+```
+We only have one test, which verifies that calcNewFocalLength is returning the correct value and type of value. To run this test, type:
 
 ```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
+npm test
 ```
 
 ## Deployment
