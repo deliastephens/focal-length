@@ -31,6 +31,8 @@ npm install jest
 ```
 We only have one test, which verifies that calcNewFocalLength is returning the correct value and type of value. To run this test, type:
 
+### Implementing Tests
+
 ```
 npm test
 ```
