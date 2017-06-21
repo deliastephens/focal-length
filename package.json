@@ -1,6 +1,6 @@
 {
   "name": "focal-length",
-  "version": "0.2.0",
+  "version": "0.3.1",
   "description": "Focal length calculator for various crop factors.",
   "main": "index.js",
   "scripts": {

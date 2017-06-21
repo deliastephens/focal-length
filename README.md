@@ -1,4 +1,4 @@
-# Project Title
+# Focal Length
 
 A simple NPM module for calculating the effective focal length given crop factor of camera and focal length of a lens.
 
@@ -38,20 +38,12 @@ Give an example
 To calculate the effective focal length for a crop factor and focal length:
 
 ```
-  const focalLength = require('focal-length');
-  const cropFactor = YOUR_CROP_FACTOR;
-  const focalLength = YOUR_FOCAL_LENGTH;
+const focalLength = require('focal-length');
+const cropFactor = YOUR_CROP_FACTOR;
+const focalLength = YOUR_FOCAL_LENGTH;
 
-  focalLength.calcNewFocalLength(cropFactor, focalLength);
+focalLength.calcNewFocalLength(cropFactor, focalLength);
 ```
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
 
 ## Authors
 
